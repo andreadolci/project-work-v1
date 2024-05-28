@@ -40,20 +40,22 @@ input {
 button {
     cursor: pointer;
     padding: 12px;
-    background: #7C5CBF;
+    background: #3AA7EC;
+    /* Colore azzurro */
     border: none;
     color: white;
     font-size: 16px;
     transition: background .3s ease;
+    border-radius: 6px;
 }
 
 button:hover {
-    background: #6b47b8;
+    background: #2E87D5;
 }
 
 button:disabled {
     cursor: default;
-    background: #7c5cbf94;
+    background: #3AA7EC94;
 }
 
 /* Join Page Styles */
@@ -61,7 +63,7 @@ button:disabled {
 .centered-form {
     background: #333744;
     width: 100vw;
-    height: 100vh;   
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +117,14 @@ button:disabled {
 /* Message Styles */
 
 .message {
-    margin-bottom: 16px;   
+    background-color: #E1F5FE;
+    /* Azzurro chiaro */
+    border-radius: 8px;
+    padding: 12px 16px;
+    max-width: 70%;
+    align-self: flex-start;
+    /* Allinea il messaggio a sinistra */
+    margin-bottom: 12px;
 }
 
 .message__name {
@@ -126,7 +135,7 @@ button:disabled {
 
 .message__meta {
     color: #777;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .message a {
@@ -166,7 +175,7 @@ button:disabled {
     font-weight: 400;
     font-size: 22px;
     background: #2c2f3a;
-    padding: 24px;   
+    padding: 24px;
 }
 
 .list-title {
